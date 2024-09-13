@@ -11,7 +11,7 @@ app.get('/api', (req, res) => {
 })
 
 // now when using react instead of a static webpage
-app.use('/', express.static(path.join(__dirname, '/st-website/build'))); // want this to be served up when a user makes a request to the root
+app.use('/', express.static(path.join(__dirname, '/react-app/build'))); // want this to be served up when a user makes a request to the root
 
 // if you wanted to serve your content on a subdirectory of the root, you could do this (here we're using a static webpage):
 app.use('/website', express.static(path.join(__dirname, '/public'))); // basically, you would access the website by going to localhost:3000/website instead of localhost:3000 (which would give you a 404 error)
