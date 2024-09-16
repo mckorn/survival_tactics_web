@@ -25,10 +25,15 @@ The website is built using **Express.js** for the backend and **React** for the 
         Make sure the most updated versions of Node.js and npm are installed on your computer.
    
 ### Running the Server
-1. Navigate to the root folder and run either line:
+1. Open up two terminals 
+2. Navigate to the server folder and run the line:
   ```bash
-    node {root folder}/app
+    npm run dev
   ```
-2. The website will appear at:
-   `http://localhost:3000`
+3. Navigate to the client folder and run the line:
+  ```bash
+    npm start
+  ```
+4. The website will appear at:
+   `http://localhost:5000/api`
    
